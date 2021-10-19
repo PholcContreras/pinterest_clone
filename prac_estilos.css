@@ -1,0 +1,74 @@
+*{
+   font-family: sans-serif;
+}
+
+.form-control{
+   background: rgb(228, 229, 230);
+   background-image: url(./iconos/buscar.png);
+   background-size:18px 18px;
+   background-repeat: no-repeat;
+   background-position: left center;
+}
+
+.cuerpo{
+   padding-top: 4rem;}
+.card-img { 
+border-radius: 20px;
+ margin-top: 20px ;  }
+.card-text{
+text-align: left;
+align-items: center;
+font-size: 14px;
+font-weight: 700;}
+
+.block-footer{
+   position: fixed;
+   bottom: 3rem;
+   right: 3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;}
+
+.btn:hover {
+   background-color: rgb(228, 225, 225);
+}
+
+@media (max-width: 991.98px) {
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+.navbar-nav {
+      display: flex;
+      flex-direction: row;}
+
+.col-3 { 
+
+flex: 33.33%;
+max-width:33.33%;
+}}
+
+
+@media (max-width: 767.98px) {
+.col-3{
+flex: 50%;
+max-width: 50%;}}
+@media (max-width: 575.98px) { 
+.col-3{
+flex: 100%;
+max-width: 100%;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
